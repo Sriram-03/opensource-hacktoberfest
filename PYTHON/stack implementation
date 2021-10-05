@@ -2,7 +2,6 @@
 # demonstrate stack implementation
 # using list
 
-
 stack = []
 
 # append() function to push
