@@ -46,7 +46,9 @@ void push(struct Stack* stack, int item)
 int pop(struct Stack* stack)
 {
 	if (isEmpty(stack))
+	{
 		return INT_MIN;
+	}
 	return stack->array[stack->top--];
 }
 
